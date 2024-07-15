@@ -1,0 +1,67 @@
+#root {
+	width: 100dvw;
+	height: 100dvh;
+	background-color: #f0f0f0;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 600;
+	color: #242424;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 500;
+	color: #333;
+}
+
+.container {
+	width: inherit;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.stats,
+.add-animals,
+.eat-fish,
+.reset-states {
+	width: 500px;
+	min-height: 100px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 6px;
+}
+
+.stats {
+	flex-direction: column;
+	gap: 10px;
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 12px;
+	box-sizing: border-box;
+	font-size: 16px;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	background-color: #007bff;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
